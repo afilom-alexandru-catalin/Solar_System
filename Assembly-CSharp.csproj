@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{0FBBE478-76C4-D5D7-F08A-3F420AB645FA}</ProjectGuid>
+    <ProjectGuid>{46EEB933-AA5C-5BEA-57CE-05AC142814EA}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -60,12 +60,24 @@
     <Analyzer Include="D:\Program Files\Hub\Editor\2022.3.21f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\BlackHole\Scripts\LookAt.cs" />
+    <Compile Include="Assets\BlackHole\Scripts\BlackHoleCamera.cs" />
+    <Compile Include="Assets\BlackHole\Scripts\BlackHoleRenderer.cs" />
+    <Compile Include="Assets\BlackHoleEffect.cs" />
     <Compile Include="Assets\MoonOrbit.cs" />
+    <Compile Include="Assets\BlackHole\Scripts\BlackHoleSphere.cs" />
     <Compile Include="Assets\PlanetRotation.cs" />
     <Compile Include="Assets\EllipticalOrbit.cs" />
+    <Compile Include="Assets\BlackHole\Scripts\MouseOrbit.cs" />
+    <Compile Include="Assets\BlackHole\Scripts\AutoBehaviour.cs" />
+    <Compile Include="Assets\BlackHole\Scripts\AsteroidRotation.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\AtomRocket\ReadMe.txt" />
+    <None Include="Assets\BlackHole\Shader\BlackHoleNoDupli.shader" />
+    <None Include="Assets\BlackHole\Shader\Resources\BlackHoleDistortion.shader" />
+    <None Include="Assets\BlackHole\Shader\BlackHoleSphere.shader" />
+    <None Include="Assets\BlackHole\Shader\BlackHole.shader" />
     <None Include="Assets\Free Skyboxes - Space\Readme.txt" />
   </ItemGroup>
   <ItemGroup>
