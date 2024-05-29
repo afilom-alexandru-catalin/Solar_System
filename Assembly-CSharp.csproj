@@ -70,6 +70,7 @@
     <Compile Include="Assets\BlackHole\Scripts\BlackHoleSphere.cs" />
     <Compile Include="Assets\PlanetRotation.cs" />
     <Compile Include="Assets\EllipticalOrbit.cs" />
+    <Compile Include="Assets\GlobalUIHandler.cs" />
     <Compile Include="Assets\BlackHole\Scripts\MouseOrbit.cs" />
     <Compile Include="Assets\BlackHole\Scripts\AutoBehaviour.cs" />
     <Compile Include="Assets\BlackHole\Scripts\AsteroidRotation.cs" />
