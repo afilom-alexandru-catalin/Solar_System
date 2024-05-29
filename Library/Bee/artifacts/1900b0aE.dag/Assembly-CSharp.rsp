@@ -370,9 +370,11 @@
 "Assets/BlackHole/Scripts/MouseOrbit.cs"
 "Assets/BlackHoleEffect.cs"
 "Assets/EllipticalOrbit.cs"
+"Assets/GlobalUIHandler.cs"
 "Assets/MoonOrbit.cs"
 "Assets/PlanetRotation.cs"
 "Assets/RocketFly.cs"
+"Assets/TimeController.cs"
 -langversion:9.0
 
 /deterministic
