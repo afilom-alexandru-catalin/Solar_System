@@ -358,6 +358,9 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
 -analyzer:"D:/Program Files/Hub/Editor/2022.3.21f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"D:/Program Files/Hub/Editor/2022.3.21f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
+"Assets/Asteroid Field Creator/Extras/Scripts/SimpleCameraController.cs"
+"Assets/Asteroid Field Creator/Sctipts/AsteroidFieldCreator.cs"
+"Assets/Asteroid Field Creator/Sctipts/AstroData.cs"
 "Assets/BlackHole/Scripts/AsteroidRotation.cs"
 "Assets/BlackHole/Scripts/AutoBehaviour.cs"
 "Assets/BlackHole/Scripts/BlackHoleCamera.cs"
@@ -369,6 +372,7 @@
 "Assets/EllipticalOrbit.cs"
 "Assets/MoonOrbit.cs"
 "Assets/PlanetRotation.cs"
+"Assets/RocketFly.cs"
 -langversion:9.0
 
 /deterministic

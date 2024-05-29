@@ -60,6 +60,8 @@
     <Analyzer Include="D:\Program Files\Hub\Editor\2022.3.21f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Asteroid Field Creator\Sctipts\AstroData.cs" />
+    <Compile Include="Assets\Asteroid Field Creator\Sctipts\AsteroidFieldCreator.cs" />
     <Compile Include="Assets\BlackHole\Scripts\LookAt.cs" />
     <Compile Include="Assets\BlackHole\Scripts\BlackHoleCamera.cs" />
     <Compile Include="Assets\BlackHole\Scripts\BlackHoleRenderer.cs" />
@@ -71,11 +73,14 @@
     <Compile Include="Assets\BlackHole\Scripts\MouseOrbit.cs" />
     <Compile Include="Assets\BlackHole\Scripts\AutoBehaviour.cs" />
     <Compile Include="Assets\BlackHole\Scripts\AsteroidRotation.cs" />
+    <Compile Include="Assets\RocketFly.cs" />
+    <Compile Include="Assets\Asteroid Field Creator\Extras\Scripts\SimpleCameraController.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\AtomRocket\ReadMe.txt" />
     <None Include="Assets\BlackHole\Shader\BlackHoleNoDupli.shader" />
     <None Include="Assets\BlackHole\Shader\Resources\BlackHoleDistortion.shader" />
+    <None Include="Assets\Asteroid Field Creator\README.txt" />
     <None Include="Assets\BlackHole\Shader\BlackHoleSphere.shader" />
     <None Include="Assets\BlackHole\Shader\BlackHole.shader" />
     <None Include="Assets\Free Skyboxes - Space\Readme.txt" />
