@@ -374,6 +374,7 @@
 "Assets/MoonOrbit.cs"
 "Assets/PlanetRotation.cs"
 "Assets/RocketFly.cs"
+"Assets/TimeController.cs"
 -langversion:9.0
 
 /deterministic
