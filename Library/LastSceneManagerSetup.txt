@@ -1,5 +1,0 @@
-sceneSetups:
-- path: Assets/Planets of the Solar System 3D/Scenes/Overview.unity
-  isLoaded: 1
-  isActive: 1
-  isSubScene: 0
