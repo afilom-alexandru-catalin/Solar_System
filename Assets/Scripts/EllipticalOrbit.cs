@@ -10,9 +10,9 @@ public class EllipticalOrbit : MonoBehaviour
     public float orbitalPeriod = 365f; // Orbital period in days
 
     private Vector3 initialPosition;
-    private float angle; // Current angle in radians
+    public float angle; // Current angle in radians
 
-    void Start()
+    public void Start()
     {
         // Store the initial position of the object relative to the pivot
         initialPosition = transform.position - sun.position;
@@ -21,7 +21,7 @@ public class EllipticalOrbit : MonoBehaviour
         angle = Mathf.Atan2(initialPosition.z / semiMinorAxis, initialPosition.x / semiMajorAxis);
     }
 
-    void Update()
+    public void Update()
     {
         // Calculate the angle based on the time and orbital period
         angle += 2 * Mathf.PI / orbitalPeriod * Time.deltaTime;
